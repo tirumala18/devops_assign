@@ -38,7 +38,7 @@ version: 0.2
       # - command
       # - command
       - aws s3 mb s3://f-b-t --region us-east-1
-      -aws ec2 create-vpc --cidr-block 192.168.0.0/16
+      - aws ec2 create-vpc --cidr-block 192.168.0.0/16
 
   #post_build:
     #commands:
